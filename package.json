@@ -1,5 +1,5 @@
 {
-  "name": "add-recipe-form",
+  "name": "add-recipe-form-functionality",
   "version": "0.0.0",
   "description": "No description",
   "author": null,
@@ -10,6 +10,7 @@
     "react": "16.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-24.0.0.tar.gz",
     "@expo/vector-icons": "6.2.2",
-    "react-native-elements": "0.18.5"
+    "react-native-autogrow-textinput": "5.0.0",
+    "react-native-elements": "0.19.0"
   }
 }

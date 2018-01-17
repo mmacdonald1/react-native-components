@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {ScrollView, StyleSheet } from 'react-native';
+import {View, StyleSheet } from 'react-native';
 import { Constants } from 'expo';
 
 // You can import from local files
@@ -13,12 +13,12 @@ import "@expo/vector-icons"; // 6.2.2
 export default class App extends Component {
   render() {
     return (
-      <ScrollView style={styles.container}>
+      <View style={styles.container}>
        
         <Card title="Add Recipes Form">
           <Form />
         </Card>
-      </ScrollView>
+      </View>
     );
   }
 }
